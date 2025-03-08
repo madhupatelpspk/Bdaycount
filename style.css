@@ -64,6 +64,10 @@ li span {
   padding: 0 .5rem;
 }
 
+.music {
+	display: none;
+}
+
 @media all and (max-width: 768px) {
   h1 {
     font-size: calc(1.5rem * var(--smaller));
@@ -76,7 +80,5 @@ li span {
   li span {
     font-size: calc(3.375rem * var(--smaller));
   }
-  .music {
-	display: none;
-  }
+
 }
